@@ -1,0 +1,88 @@
+.maadeshtaawedha {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+.baskett{
+    position: absolute;
+    margin-top: 100px;
+    display: flex;
+}
+
+
+h1 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item-list {
+    text-align: left;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.item:hover {
+    transform: scale(1.03);
+    background-color: #f0f0f0;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #27ae60;
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+}
+
+.control-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.item-quantity {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.total-label {
+    font-weight: bold;
+}
+
+.next-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+
+}
